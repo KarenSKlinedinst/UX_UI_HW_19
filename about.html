@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
         <header>
@@ -75,39 +76,19 @@
                     </p>
                 </div>
             </section>
-        <footer>
-            <div class="flex-container">
-                <div class="flex-item-4">
-                    <a href="https://www.linkedin.com/in/karenklinedinst/" class="fa fa-linkedin"></a>
-                    <a href="https://www.instagram.com/karenklinedinst/" class="fa fa-instagram"></a>
-                    <p class="white">
-                        <strong>Connect with me!</strong><br>
-                        <img src="images/🦆 icon _at_.png" alt="email icon" style="width:24px"> karensklinedinst@gmail.com <br>
-                        <img src="images/🦆 icon _phone_.png" alt="phone icon" style="width:24px"> 443-676-1596 <br>
-                        &copy;2004 Karen Klinedinst. All rights reserved.</p>
-                    </div>
-                 </footer>
+            <footer>
+                <div class="flex-container">
+                    <div class="flex-item-4">
+                        <a href="https://www.linkedin.com/in/karenklinedinst/" class="fa fa-linkedin"></a>
+                        <a href="https://www.instagram.com/karenklinedinst/" class="fa fa-instagram"></a>
+                        <p class="white">
+                            <strong>Connect with me!</strong><br>
+                            <img src="images/🦆 icon _at_.png" alt="email icon" style="width:24px"> <a href="mailto: karensklinedinst@gmail.com">karensklinedinst@gmail.com</a> <br>
+                            <img src="images/🦆 icon _phone_.png" alt="phone icon" style="width:24px"> 443-676-1596 <br>
+                            &copy;2004 Karen Klinedinst. All rights reserved.</p>
+                        </div>
+                     </footer>
                  <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
-        <script>
-            // Get the button
-            let mybutton = document.getElementById("myBtn");
-            
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
-            
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
-            }
-            
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-              document.body.scrollTop = 0;
-              document.documentElement.scrollTop = 0;
-            }
-            </script>
-                </body>
+    </body>
+<script src="js/script.js"></script>
 </html>
